@@ -1,0 +1,74 @@
+footer {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.contato {
+    background-color: var(--light-blue-bg);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    
+}
+
+.contato-conteudo {
+    width: 1136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.links a:hover {
+    color: var(--dark-blue);
+}
+
+.contato-form {
+    width: 560px;
+}
+
+.contato-form legend {
+    color: var(--dark-gray);
+    margin-bottom: 8px;
+}
+
+.contato-form .button-form {
+    width: 170px;
+}
+
+.copyright {
+    padding: 32px 0;
+    color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.copyright span{
+    color: var(--dark-blue);
+}
+
+.copyright a{
+    color: var(--dark-blue);
+}
+
+.copyright a:hover{
+    color: var(--dark-gray);
+}
+
+.copyright a:active{
+    scale: .8px;
+}

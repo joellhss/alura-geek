@@ -1,0 +1,98 @@
+{
+  "Produtos": [
+    {
+      "nome": "Caneca de Stormtrooper",
+      "descricao": "Caneca com o tema de star-wars",
+      "preco": 60.22,
+      "urlImage": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "categoria": "Star Wars",
+      "id": 1
+    },
+    {
+      "nome": "Bonecos do Darth Vader",
+      "descricao": "Bonecos em lego do Star Wars.",
+      "preco": 135.97,
+      "urlImage": "https://images.unsplash.com/photo-1620950127852-92592960e363?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "categoria": "Star Wars",
+      "id": 2
+    },
+    {
+      "nome": "Controle de Xbox",
+      "descricao": "Controle de Xbox sem fio.",
+      "preco": 120,
+      "urlImage": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "categoria": "Consoles",
+      "id": 3
+    },
+    {
+      "nome": "Action Figure Yoda",
+      "descricao": "Action Figure do personagem de Star Wars Yoda.",
+      "preco": 265.99,
+      "urlImage": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80",
+      "categoria": "Star Wars",
+      "id": 4
+    },
+    {
+      "nome": "Action Figure Stormtrooper",
+      "descricao": "Action Figure de um Stormtrooper.",
+      "preco": 567.99,
+      "urlImage": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      "categoria": "Star Wars",
+      "id": 5
+    },
+    {
+      "nome": "Action figure Baby Yoda",
+      "descricao": "Action figure do personagem de Star Wars Baby Yoda.",
+      "preco": 232.99,
+      "urlImage": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80",
+      "categoria": "Star Wars",
+      "id": 6
+    },
+    {
+      "nome": "Action figure Kylo Ren",
+      "descricao": "Action figure do personagem de Star Wars Kylo Ren.",
+      "preco": 419.99,
+      "urlImage": "https://images.unsplash.com/photo-1591927675938-b81b071d3e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "categoria": "Star Wars",
+      "id": 7
+    },
+    {
+      "nome": "Camisa Atari",
+      "descricao": "Camisa branca com logo do Atari.",
+      "preco": 75.99,
+      "urlImage": "https://images.unsplash.com/photo-1589021818993-a1223f8f0f04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=745&q=80",
+      "categoria": "Consoles",
+      "id": 8
+    },
+    {
+      "nome": "Camisa SNES",
+      "descricao": "Camisa cinza com logo do joystick do console SNES.",
+      "preco": 75.99,
+      "urlImage": "https://images.unsplash.com/photo-1554410637-1a8267402b57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "categoria": "Consoles",
+      "id": 9
+    },
+    {
+      "nome": "Action figure Sonic",
+      "descricao": "Action figure do personagem de video game Sonic.",
+      "preco": 135.99,
+      "urlImage": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80",
+      "categoria": "Consoles",
+      "id": 10
+    }
+  ],
+  "Funcionarios": [
+    {
+      "id": 1,
+      "nome": "Joel Henrique",
+      "email": "joelhenrique@email.com",
+      "senha": "joel123"
+    },
+    {
+      "id": 2,
+      "nome": "Louise Mafra",
+      "email": "louisemafra@email.com",
+      "senha": "louise123"
+    }
+  ]
+}

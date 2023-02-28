@@ -1,0 +1,116 @@
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/main.css";
+@import "./global/footer.css";
+
+@import "./components/forms.css";
+
+.menuAdministrativo {
+    width: 1136px;
+    height: auto;
+    position: relative;
+}
+
+.menuAdministrativo-topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.menuAdministrativo-produtos, .categoriaBoxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+}
+
+.boxProduto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.boxProduto-boxImagem {
+    position: relative;
+    display: flex;
+}
+
+.boxProduto-boxImagem-imagem {
+    width: 100%;
+    height: 174px;
+    object-fit: cover;
+}
+
+.buttons-imagem {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.buttons-imagem a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.boxProduto-nome {
+    font-weight: 500;
+}
+
+.boxProduto-preco {
+    font-weight: 700;
+}
+
+.boxProduto-id {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menuAdministrativo-deletar {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.438);
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuAdministrativo-deletar-box {
+    width: 600px;
+    height: 200px;
+    background-color: var(--light-gray-bg);
+    border-radius: 20px;
+    border: 2px solid var(--dark-blue);
+
+    top: 20%;
+    right: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuAdministrativo-deletar-box p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.buttons-deletar {
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.buttons-deletar .button {
+    width: 100%;
+    font-weight: 700;
+}

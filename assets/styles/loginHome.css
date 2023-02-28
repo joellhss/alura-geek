@@ -1,0 +1,27 @@
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/main.css";
+@import "./global/footer.css";
+
+@import "./components/forms.css";
+
+.formLogin {
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    color: var(--dark-gray);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.error {
+    color: #E35040;
+    font-style: italic;
+    margin-top: 15px;
+    text-align: center;
+}

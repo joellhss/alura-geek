@@ -1,0 +1,59 @@
+header {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+} 
+
+.header-conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 1136px;
+    padding: 32px 0;
+}
+
+.header-left {
+    display: flex;
+    gap: 32px;
+}
+
+.formHeader {
+    background-color: var(--light-gray-bg);
+    display: flex;
+    width: 393px;
+    padding: 0 20px;
+    border-radius: 25px;
+}
+
+.formHeader input {
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+    width: 100%;
+    color: var(--dark-gray);
+}
+
+.formHeader button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonMenu {
+    text-decoration: none;
+    background: transparent;
+    border: solid 2px var(--dark-blue);
+    color: var(--dark-blue);
+    padding: 16px;
+    cursor: pointer;
+}
+
+.buttonMenu:active {
+    scale:.98;
+    transition-duration: 50ms;
+}
+
+.ph-magnifying-glass-bold {
+    color: var(--light-gray);
+    scale: 1.7;
+}
